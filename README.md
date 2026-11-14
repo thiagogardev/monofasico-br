@@ -1,5 +1,7 @@
 # monofasico-br
 
+[![testes](https://github.com/thiagogardev/monofasico-br/actions/workflows/testes.yml/badge.svg)](https://github.com/thiagogardev/monofasico-br/actions/workflows/testes.yml)
+
 **Este produto é monofásico de PIS/COFINS? E quanto o Simples Nacional pagou a mais na revenda?**
 Classificação por NCM e Ex da TIPI com a lei e o artigo de cada decisão, a partir das leis, da IN RFB
 nº 2.121/2022 e das tabelas oficiais do SPED. [English version](README.en.md).

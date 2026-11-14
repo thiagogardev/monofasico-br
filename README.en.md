@@ -1,5 +1,7 @@
 # monofasico-br
 
+[![testes](https://github.com/thiagogardev/monofasico-br/actions/workflows/testes.yml/badge.svg)](https://github.com/thiagogardev/monofasico-br/actions/workflows/testes.yml)
+
 **Is this product subject to single-stage (monophasic) PIS/COFINS? And how much did a Simples Nacional
 reseller overpay?** Classification by NCM code and TIPI "Ex", with the law and article behind each decision,
 built from the statutes, RFB Normative Instruction 2,121/2022 and the official SPED tables.
@@ -115,8 +117,24 @@ under Simples Nacional. Anything past its deadline on the `--hoje` date leaves t
 
 ## Official sources
 
-See the [Portuguese README](README.md#fontes-oficiais) for the full list of linked statutes, resolutions,
-SPED tables, the TIPI and the Simples Nacional Q&A, all on official Brazilian government sites.
+All links point to official Brazilian government sites; the texts are in Portuguese.
+
+- [Complementary Law 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm), art. 18, §4-A, I, §§ 12 and 13, and Annex I (Simples Nacional)
+- [CGSN Resolution 140/2018](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=92278), art. 5, X, art. 25, §§ 6 and 7, art. 39 and arts. 128 to 132 (segregation, amendment and refund)
+- [CGSN Resolution 190/2026](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=152832) (rules from 2027-01-01)
+- [Law 9,718/1998](https://www.planalto.gov.br/ccivil_03/leis/l9718compilada.htm), arts. 4 and 5 (fuels)
+- [Law 10,147/2000](https://www.planalto.gov.br/ccivil_03/leis/l10147.htm), art. 1 (pharmaceuticals and perfumery)
+- [Law 10,485/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10485compilado.htm), arts. 1, 3 and 5 and Annexes I and II (vehicles, auto parts, tires)
+- [Law 10,560/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/L10560compilado.htm), art. 2 (aviation kerosene)
+- [Law 11,116/2005](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11116.htm) (biodiesel)
+- [Law 12,839/2013](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12839.htm) (removed heading 33.06 from Law 10,147)
+- [Law 13,097/2015](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13097.htm), arts. 14, 25 and 28 (cold beverages)
+- [RFB Normative Instruction 2,121/2022](http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=127905), Annexes I and II (auto parts under the current TIPI)
+- [EFD-Contribuições tables 4.3.10 and 4.3.11](http://sped.rfb.gov.br/pasta/show/1616) (SPED)
+- [TIPI](https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.xlsx/view), the IPI table with the NCM codes and their "Ex" (Federal Revenue)
+- [Simples Nacional Q&A](https://www8.receita.fazenda.gov.br/SimplesNacional/Arquivos/manual/PerguntaoSN.pdf), items 7.3, 7.4 and 10.1 to 10.9
+
+The Federal Revenue's normative pages open only in a browser (they are rendered by JavaScript).
 
 ## Origin
 
