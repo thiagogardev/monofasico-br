@@ -1,0 +1,9 @@
+node_modules/
+
+# segurança
+.env
+.env.*
+*.pfx
+*.key
+senha*
+settings.local.json

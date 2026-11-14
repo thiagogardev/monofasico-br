@@ -1,0 +1,14 @@
+# Itens sintéticos de uma loja de autopeças fictícia. ncm;ex;cst_compra;descricao
+ncm;ex;cst_compra;descricao
+40111000;;04;Pneu de passeio aro 14
+87089990;;04;Suporte do para-choque
+84818099;01;04;Válvula termostática (Ex 01)
+84818099;0;;Válvula sem Ex na nota (EXTIPI 0)
+40093100;;;Mangueira hidráulica com terminais
+84314390;;;Haste de perfuratriz
+33061000;;;Creme dental
+33051000;;04;Xampu
+30049046;;;Medicamento da exceção expressa
+22030000;;;Cerveja em lata
+39269090;;04;Presilha plástica
+73181500;;;Parafuso sextavado

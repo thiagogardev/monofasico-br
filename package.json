@@ -1,0 +1,22 @@
+{
+  "name": "monofasico-br",
+  "version": "0.1.0",
+  "description": "Classificação de PIS/COFINS monofásico por NCM e Ex da TIPI, com a lei de cada grupo, e estimativa do que o Simples Nacional pagou a mais na revenda",
+  "type": "module",
+  "license": "MIT",
+  "author": "Thiago Garofalo (https://garofalodeveloper.com)",
+  "repository": "github:thiagogardev/monofasico-br",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "ncm": "tsx src/cli.ts ncm",
+    "tabela": "tsx src/cli.ts tabela",
+    "recuperar": "tsx src/cli.ts recuperar",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
