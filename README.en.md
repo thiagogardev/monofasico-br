@@ -59,6 +59,15 @@ npm test
 Options: `--json` on any command; `--ate YYYY-MM` and `--hoje YYYY-MM-DD` on `recuperar`. CSV files use
 semicolons, and lines starting with `#` are comments. The files in `exemplos/` are synthetic.
 
+As a library:
+
+```ts
+import { classificar, conferirPelaCompra, estimarRecuperacao } from "./src/index.ts";
+
+const c = classificar({ ncm: "8481.80.99", ex: "01" }); // { situacao: "sim", grupo, nome, fonte, motivo }
+conferirPelaCompra(classificar({ ncm: "39269090" }), "39269090", ["04"]); // "to be confirmed"
+```
+
 ## How the decision is made
 
 1. **8-digit NCM.** Without one, "no".
